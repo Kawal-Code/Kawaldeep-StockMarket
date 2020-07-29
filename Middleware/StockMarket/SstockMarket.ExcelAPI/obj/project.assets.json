@@ -5393,11 +5393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+      "projectUniqueName": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
       "projectName": "StockMarket.ExcelAPI",
-      "projectPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+      "projectPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
       "packagesPath": "C:\\Users\\socgend44\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\SstockMarket.ExcelAPI\\obj\\",
+      "outputPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\SstockMarket.ExcelAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

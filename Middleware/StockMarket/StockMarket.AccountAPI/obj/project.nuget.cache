@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QP1V9TvNt0R6DJDqgzIdNlNDAHwtePx4Km3NFZS7leeS3WUPF4mXZa7ltAvIFaFtZOYUxX2utBaDoXh7Jhy1Pg==",
+  "dgSpecHash": "YoZ+whD0e3JeXqwOEHgjtVYvmji5uypXQFGQKm101+11ktJZEWprXGiG5XU+2Kb/h82Zle6pQNQYFiS6QiXAcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
+  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.2\\microsoft.aspnetcore.authentication.jwtbearer.3.1.2.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

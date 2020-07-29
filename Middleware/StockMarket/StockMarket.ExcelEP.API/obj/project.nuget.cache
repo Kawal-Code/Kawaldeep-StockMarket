@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nwtnHto71nO9HTR9SY5ufx4UoclAByp9mRRbwdHCS1QDxo7Gt6XRPOZTzf4C0EzZZIRH5zfaJ2y5QWygN3lTDA==",
+  "dgSpecHash": "blBI/sG/eeFSmH6vXlZcTUtsz4233Pm7LesLPtMRS6tTe0oKDta4FJn4ODGJbb/5tVHLeM1LmbCaPjGLjlAowA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
+  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\socgend44\\.nuget\\packages\\epplus.core\\1.5.4\\epplus.core.1.5.4.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

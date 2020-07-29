@@ -8971,11 +8971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
+      "projectUniqueName": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
       "projectName": "StockMarket.ExcelEP.API",
-      "projectPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
+      "projectPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
       "packagesPath": "C:\\Users\\socgend44\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.ExcelEP.API\\obj\\",
+      "outputPath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.ExcelEP.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

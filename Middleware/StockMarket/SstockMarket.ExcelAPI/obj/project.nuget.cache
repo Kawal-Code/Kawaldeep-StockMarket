@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eaDDY86NXV38vN+Wo8mGzZe0iSiQhtk8DrQCQcNMsqIMnWvj6bJAy+lxZ86LuPEEmuCBidGkDUr84tBpHjvQ6A==",
+  "dgSpecHash": "Cd8hhFIxrZktsVwntQcalUQkOFbvNSFGK8vArJDkrpubYXoTEte2jRhWueV6PDAydZ+xDka5Jf3y3HCQ+JsKFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\SstockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.6\\microsoft.aspnetcore.jsonpatch.3.1.6.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.6\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.6.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gf0OU/0oV3OpOxewZL+obWXo86ipOBU/I5BCojbVw9uJWLtsUsaab+4LxyUpNKvupsXO3ROQIe/rbMMklRmShQ==",
+  "dgSpecHash": "oOz79BaABpLffPXivtkoHiD5b04WZb5gOqDz95gFNJ6eiJAdzrpI8Tie6arviPHsThcx+JGii3t72YDZXif04Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

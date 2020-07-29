@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iq/t0zGuJVZMmMjtgL9OFsxxRiZH/c8H5+xdaWerOSZYLZ5WNhy7/Cm7DnfQt+E177kOjE0COc4pF5U7xLctdA==",
+  "dgSpecHash": "nzzsKCCycSjTf60YwHbSekNM/ut1y05PWyqLlGWY6YLC96IzTKcI9tMAxZe3nsfUTSWkpG7K94e1pI3TcT0vxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep-StockMarket\\StockMarket\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
+  "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\socgend44\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512",

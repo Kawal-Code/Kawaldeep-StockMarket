@@ -1,13 +1,11 @@
 {
-  
-  "ReRoutes": 
-  [
-    //AccountAPI
+
+  "ReRoutes": [
+    //AccountAPI(account)
     {
       "DownstreamPathTemplate": "/api/Account/{catchAll}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": 
-      [
+      "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 49977
@@ -16,12 +14,25 @@
       "UpstreamPathTemplate": "/Account/{catchAll}"
 
     },
-    // AdminAPI
+
+    //ExcelEFAPI
+    {
+      "DownstreamPathTemplate": "/api/Stock/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56148
+        }
+      ],
+      "UpstreamPathTemplate": "/Stock/{catchAll}"
+
+    },
+    // AdminAPI(Company)
     {
       "DownstreamPathTemplate": "/api/CompanyRelated/{catchAll}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": 
-      [
+      "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 50030
@@ -30,12 +41,24 @@
       "UpstreamPathTemplate": "/CompanyRelated/{catchAll}"
 
     },
+    //AdminAPI(ManageStock)
+    {
+      "DownstreamPathTemplate": "/api/ManageStock/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50030
+        }
+      ],
+      "UpstreamPathTemplate": "/ManageStock/{catchAll}"
+
+    },
     // UserAPI(User)
     {
       "DownstreamPathTemplate": "/api/User/{catchAll}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts":
-      [
+      "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 50031
@@ -48,8 +71,7 @@
     {
       "DownstreamPathTemplate": "/api/Search/{catchAll}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts":
-      [
+      "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 50031
@@ -64,8 +86,7 @@
     {
       "DownstreamPathTemplate": "/api/ViewIPO/{catchAll}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts":
-      [
+      "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 50031

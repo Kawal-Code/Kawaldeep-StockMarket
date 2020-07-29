@@ -5,10 +5,11 @@ namespace StockMarket.AccountAPI.Models
 {
     public partial class StockPrice
     {
-        public int CompanyCode { get; set; }
+        public int RowId { get; set; }
+        public int? CompanyCode { get; set; }
         public string StockExchange { get; set; }
-        public double? CurrentPrice { get; set; }
-        public DateTime? Date { get; set; }
-        public TimeSpan? Time { get; set; }
+        public string CurrentPrice { get; set; }
+        public string Date { get; set; }
+        public string Time { get; set; }
     }
 }
