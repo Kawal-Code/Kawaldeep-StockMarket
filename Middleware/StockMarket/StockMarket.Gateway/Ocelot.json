@@ -1,0 +1,104 @@
+{
+
+  "ReRoutes": [
+    //AccountAPI(account)
+    {
+      "DownstreamPathTemplate": "/api/Account/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49977
+        }
+      ],
+      "UpstreamPathTemplate": "/Account/{catchAll}"
+
+    },
+
+    //ExcelEFAPI
+    {
+      "DownstreamPathTemplate": "/api/Stock/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56148
+        }
+      ],
+      "UpstreamPathTemplate": "/Stock/{catchAll}"
+
+    },
+    // AdminAPI(Company)
+    {
+      "DownstreamPathTemplate": "/api/CompanyRelated/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50030
+        }
+      ],
+      "UpstreamPathTemplate": "/CompanyRelated/{catchAll}"
+
+    },
+    //AdminAPI(ManageStock)
+    {
+      "DownstreamPathTemplate": "/api/ManageStock/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50030
+        }
+      ],
+      "UpstreamPathTemplate": "/ManageStock/{catchAll}"
+
+    },
+    // UserAPI(User)
+    {
+      "DownstreamPathTemplate": "/api/User/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50031
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{catchAll}"
+
+    },
+    // UserAPI(Search)
+    {
+      "DownstreamPathTemplate": "/api/Search/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50031
+        }
+      ],
+
+      "UpstreamPathTemplate": "/Search/{catchAll}"
+
+    },
+
+    // UserAPI(ViewIPO)
+    {
+      "DownstreamPathTemplate": "/api/ViewIPO/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50031
+        }
+      ],
+      "UpstreamPathTemplate": "/ViewIPO/{catchAll}"
+
+    }
+  ],
+  "GlobalConfiguration": 
+  {
+    "BaseUrl": "http://localhost:50032"
+  }
+
+}
