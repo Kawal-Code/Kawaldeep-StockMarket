@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using StockMarket.ExcelEP.API.Models;
 
 namespace StockMarket.ExcelEP.API
@@ -26,6 +27,18 @@ namespace StockMarket.ExcelEP.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options =>
+       options.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                );
+            });
             string connection = "Server=SOCDNET37;Database=StockDb;User ID=sa;Password=pass@word1";
             services.AddDbContext<StockDbContext>(options => options.UseSqlServer(connection));
             services.AddControllers();
@@ -42,6 +55,13 @@ namespace StockMarket.ExcelEP.API
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors("AllowOrigin");
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

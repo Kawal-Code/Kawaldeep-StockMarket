@@ -257,8 +257,6 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMar
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.csprojAssemblyReference.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.AssemblyInfoInputs.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.AssemblyInfo.cs
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.csproj.CoreCompileInputs.cache
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.RazorTargetAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.csproj.CopyComplete
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\staticwebassets\StockMarket.ExcelEP.API.StaticWebAssets.Manifest.cache
@@ -266,3 +264,10 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMar
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.dll
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.pdb
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.genruntimeconfig.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.csproj.CoreCompileInputs.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.ExcelEP.API\obj\Debug\netcoreapp3.1\StockMarket.ExcelEP.API.MvcApplicationPartsAssemblyInfo.cache

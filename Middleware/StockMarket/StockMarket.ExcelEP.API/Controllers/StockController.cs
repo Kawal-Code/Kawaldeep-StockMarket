@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
 using StockMarket.ExcelEP.API.Models;
 using System.Text;
+using StockMarket.ExcelEP.API.Services;
 
 namespace StockMarket.ExcelEP.API.Controllers
 {
@@ -25,8 +26,15 @@ namespace StockMarket.ExcelEP.API.Controllers
         //    //_hostingEnvironment = hostingEnvironment;
         //    //_db = db;
         //}
+        StockService service = new StockService();
+        [HttpGet]
+        [Route("GetCompanies")]
+        public IActionResult Get()
+        {
+            return Ok(service.GetCompanies());
 
 
+        }
         [HttpGet]
         [Route("ImportStock")]
         public IList<StockPrice> ImportStock()
