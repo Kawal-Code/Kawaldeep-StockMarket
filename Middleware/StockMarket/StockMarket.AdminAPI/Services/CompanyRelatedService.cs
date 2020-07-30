@@ -47,5 +47,10 @@ namespace StockMarket.AdminAPI.Services
         {
             return _repo.GetIpo();
         }
+
+        public void Add(IposPlanned item)
+        {
+            _repo.Add(item);
+        }
     }
 }

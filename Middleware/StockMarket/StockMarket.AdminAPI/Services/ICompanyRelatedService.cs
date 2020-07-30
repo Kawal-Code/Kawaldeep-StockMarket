@@ -16,5 +16,6 @@ namespace StockMarket.AdminAPI.Services
         public void Edit(CompanyRelated item);
         public void Update(IposPlanned item);
         public List<IposPlanned> GetIpo();
+        public void Add(IposPlanned item);
     }
 }

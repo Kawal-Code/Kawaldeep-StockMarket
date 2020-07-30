@@ -62,10 +62,6 @@ namespace StockMarket.AdminAPI.Models
 
             modelBuilder.Entity<IposPlanned>(entity =>
             {
-                entity.ToTable("IPOsPlanned");
-
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.CompanyName)
                     .IsRequired()
                     .HasMaxLength(32)
@@ -112,7 +108,13 @@ namespace StockMarket.AdminAPI.Models
 
             modelBuilder.Entity<StockExchange>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.HasKey(e => e.StockExchange1)
+                    .HasName("PK__StockExc__04FF4B536D6D8AF8");
+
+                entity.Property(e => e.StockExchange1)
+                    .HasColumnName("StockExchange")
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Brief)
                     .HasMaxLength(32)
@@ -125,31 +127,37 @@ namespace StockMarket.AdminAPI.Models
                 entity.Property(e => e.Remarks)
                     .HasMaxLength(32)
                     .IsUnicode(false);
-
-                entity.Property(e => e.StockExchange1)
-                    .HasColumnName("StockExchange")
-                    .HasMaxLength(32)
-                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<StockPrice>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.RowId);
 
-                entity.Property(e => e.Date).HasColumnType("date");
+                entity.Property(e => e.CurrentPrice)
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Date)
+                    .IsRequired()
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.StockExchange)
+                    .IsRequired()
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Time)
+                    .IsRequired()
                     .HasMaxLength(32)
                     .IsUnicode(false);
             });
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.Email)
-                    .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.MobileNumber)
                     .HasMaxLength(10)

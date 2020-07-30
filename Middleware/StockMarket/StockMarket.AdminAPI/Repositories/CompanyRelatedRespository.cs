@@ -59,6 +59,11 @@ namespace StockMarket.AdminAPI.Repositories
         {
             return db.IposPlanned.ToList();
         }
-        
+        public void Add(IposPlanned item)
+        {
+            db.IposPlanned.Add(item);
+            db.SaveChanges();
+        }
+
     }
 }

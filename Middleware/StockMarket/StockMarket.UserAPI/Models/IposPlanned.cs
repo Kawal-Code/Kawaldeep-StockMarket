@@ -10,7 +10,7 @@ namespace StockMarket.UserAPI.Models
         public string StockExchange { get; set; }
         public int? PricePerShare { get; set; }
         public int? TotalShares { get; set; }
-        public DateTime OpenDateTime { get; set; }
+        public DateTime? OpenDateTime { get; set; }
         public string Remarks { get; set; }
     }
 }

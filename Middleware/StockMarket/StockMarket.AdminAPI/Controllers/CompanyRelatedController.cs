@@ -60,7 +60,7 @@ namespace StockMarket.AdminAPI.Controllers
             return Ok("Record Updated");
         }
         [HttpPut]
-        [Route("UpdateIPO")]
+        [Route("EditIPO")]
         public IActionResult Put(IposPlanned item)
         {
             service.Update(item);
@@ -73,6 +73,14 @@ namespace StockMarket.AdminAPI.Controllers
             return Ok(service.GetIpo());
 
 
+        }
+        [HttpPost]
+
+        [Route("AddIPO")]
+        public IActionResult Post(IposPlanned item)
+        {
+            service.Add(item);
+            return Ok("Record Added");
         }
 
 
