@@ -62,10 +62,6 @@ namespace StockMarket.AccountAPI.Models
 
             modelBuilder.Entity<IposPlanned>(entity =>
             {
-                entity.ToTable("IPOsPlanned");
-
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.CompanyName)
                     .IsRequired()
                     .HasMaxLength(32)
@@ -112,8 +108,7 @@ namespace StockMarket.AccountAPI.Models
 
             modelBuilder.Entity<StockExchange>(entity =>
             {
-                entity.HasKey(e => e.StockExchange1)
-                    .HasName("PK__StockExc__04FF4B536D6D8AF8");
+                entity.HasKey(e => e.StockExchange1);
 
                 entity.Property(e => e.StockExchange1)
                     .HasColumnName("StockExchange")
@@ -127,6 +122,8 @@ namespace StockMarket.AccountAPI.Models
                 entity.Property(e => e.ContactAddress)
                     .HasMaxLength(32)
                     .IsUnicode(false);
+
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Remarks)
                     .HasMaxLength(32)
