@@ -81,6 +81,20 @@
       "UpstreamPathTemplate": "/Search/{catchAll}"
 
     },
+    // UserAPI(BarChart)
+    {
+      "DownstreamPathTemplate": "/api/BarChart/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50031
+        }
+      ],
+
+      "UpstreamPathTemplate": "/BarChart/{catchAll}"
+
+    },
 
     // UserAPI(ViewIPO)
     {
