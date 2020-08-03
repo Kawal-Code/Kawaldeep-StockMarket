@@ -40,11 +40,10 @@ namespace StockMarket.AdminAPI.Controllers
         }
         [HttpDelete]
 
-
-        [Route("Delete/{id}")]
-        public IActionResult Delete(int id)
+        [Route("Delete/{Id}")]
+        public IActionResult Delete(string Id)
         {
-            service.Delete(id);
+            service.Delete(Id);
             return Ok("Record Deleted");
         }
         [HttpPut]

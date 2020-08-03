@@ -15,9 +15,9 @@ namespace StockMarket.AdminAPI.Services
             _repo.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(string Id)
         {
-            _repo.Delete(id);
+            _repo.Delete(Id);
         }
 
         public void Edit(StockExchange item)

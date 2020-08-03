@@ -20,9 +20,9 @@ namespace StockMarket.AdminAPI.Repositories
             db.SaveChanges();
         }
 
-        public void Delete(int id)
+        public void Delete(string Id)
         {
-            StockExchange c = db.StockExchange.Find(id);
+            StockExchange c = db.StockExchange.Find(Id);
             db.StockExchange.Remove(c);
             db.SaveChanges();
         }
