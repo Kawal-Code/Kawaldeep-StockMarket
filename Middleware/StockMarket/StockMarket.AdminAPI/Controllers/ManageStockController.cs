@@ -7,15 +7,25 @@ using Microsoft.AspNetCore.Mvc;
 using StockMarket.AdminAPI.Models;
 using StockMarket.AdminAPI.Services;
 
+
+
 namespace StockMarket.AdminAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ManageStockController : ControllerBase
     {
+
         StockExchangeService service = new StockExchangeService();
+       /* private readonly StockExchangeService service;
+        public ManageStockController(StockExchangeService _service)
+        {
+            service = _service;
+        }*/
         [HttpGet]
         [Route("GetStockExchangeList")]
+
+       
         public IActionResult Get()
         {
             return Ok(service.GetStockExchangeList());
@@ -41,7 +51,7 @@ namespace StockMarket.AdminAPI.Controllers
         [HttpDelete]
 
         [Route("Delete/{Id}")]
-        public IActionResult Delete(string Id)
+        public IActionResult Delete(int Id)
         {
             service.Delete(Id);
             return Ok("Record Deleted");

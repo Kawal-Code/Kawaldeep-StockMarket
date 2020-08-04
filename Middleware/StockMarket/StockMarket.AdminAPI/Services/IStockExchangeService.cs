@@ -12,7 +12,7 @@ namespace StockMarket.AdminAPI.Services
 
         public StockExchange GetStockExchage(int id);
         public void Add(StockExchange item);
-        public void Delete(string Id);
+        public void Delete(int Id);
         public void Edit(StockExchange item);
         public List<IposPlanned> GetCompanies(StockExchange stockex);
     }

@@ -9,7 +9,6 @@ namespace StockMarket.UserAPI.Services
     public class UpdateService : IUpdateService
     {
         UpdateRepository _repo = new UpdateRepository();
-
        
 
         public void Update(User item)

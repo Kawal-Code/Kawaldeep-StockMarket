@@ -10,12 +10,14 @@ namespace StockMarket.AdminAPI.Services
     public class StockExchangeService : IStockExchangeService
     {
         StockExchangeRepository _repo = new StockExchangeRepository();
+        
+
         public void Add(StockExchange item)
         {
             _repo.Add(item);
         }
 
-        public void Delete(string Id)
+        public void Delete(int Id)
         {
             _repo.Delete(Id);
         }

@@ -108,13 +108,6 @@ namespace StockMarket.AdminAPI.Models
 
             modelBuilder.Entity<StockExchange>(entity =>
             {
-                entity.HasKey(e => e.StockExchange1);
-
-                entity.Property(e => e.StockExchange1)
-                    .HasColumnName("StockExchange")
-                    .HasMaxLength(32)
-                    .IsUnicode(false);
-
                 entity.Property(e => e.Brief)
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -123,9 +116,13 @@ namespace StockMarket.AdminAPI.Models
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Id).ValueGeneratedOnAdd();
-
                 entity.Property(e => e.Remarks)
+                    .HasMaxLength(32)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.StockExchange1)
+                    .IsRequired()
+                    .HasColumnName("StockExchange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
             });

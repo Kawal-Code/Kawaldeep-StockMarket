@@ -1,4 +1,5 @@
-﻿using StockMarket.AdminAPI.Models;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using StockMarket.AdminAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,13 +15,19 @@ namespace StockMarket.AdminAPI.Repositories
 
         public StockExchangeRepository()
         { db = new StockDbContext(); }
+
+        private readonly StockDbContext context;
+        public StockExchangeRepository(StockDbContext _context)
+        {
+            db = _context;
+        }
         public void Add(StockExchange item)
         {
             db.StockExchange.Add(item);
             db.SaveChanges();
         }
 
-        public void Delete(string Id)
+        public void Delete(int Id)
         {
             StockExchange c = db.StockExchange.Find(Id);
             db.StockExchange.Remove(c);
@@ -35,7 +42,7 @@ namespace StockMarket.AdminAPI.Repositories
 
         public StockExchange GetStockExchage(int id)
         {
-            return db.StockExchange.SingleOrDefault(c => c.Id == id);
+            return db.StockExchange.Find(id);
         }
 
         public List<StockExchange> GetStockExchangeList()
