@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JwbYwkdvQNh4csVZ02BkFONDRXtfqrLVIMisvcSjcCtE9jfX1u96Mq+375JGIvnOlFHr6x9MxeDRzDaIjjyztQ==",
+  "dgSpecHash": "MfV2bU6UMboeLFCHQo6DpoCgXEpEMX/dRLJOEnHKSHw/ULbTkibY+I2SICZjsVmWToKSEB0+WaV+d56vXfgNsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\ocelot\\14.0.9\\ocelot.14.0.9.nupkg.sha512",

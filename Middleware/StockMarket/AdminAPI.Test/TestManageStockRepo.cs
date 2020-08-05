@@ -12,7 +12,7 @@ namespace AdminAPI.Test
 
     public class TestManageStockRepo
     {
-       /* private readonly StockExchangeService _service;
+        private readonly StockExchangeService _service;
 
         public TestManageStockRepo()
         {
@@ -62,7 +62,7 @@ namespace AdminAPI.Test
 
                 Assert.Equal(1, 1);
             }
-            */
+            
             
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kel/qSEs6zlQ/FdVfJeVS9sK6kluXNGKjRkmElpQ1cv8JzbjQ3xHIGEtQXx/OAmOK/yPYeKloc5roYDLLd1rkQ==",
+  "dgSpecHash": "1/68fEJH9FLMqgVdZpW+/f5gnBWw0lyx0gCqnrHWncDNWQNZLX5vvAUTiyLYdP6l44SsIIlVxLUCG8FAe4kucg==",
   "success": true,
   "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\AccountAPI.Test\\AccountAPI.Test.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,7 @@
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.1\\microsoft.visualstudio.web.codegeneration.3.1.1.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.1\\microsoft.visualstudio.web.codegeneration.contracts.3.1.1.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.1\\microsoft.visualstudio.web.codegeneration.core.3.1.1.nupkg.sha512",

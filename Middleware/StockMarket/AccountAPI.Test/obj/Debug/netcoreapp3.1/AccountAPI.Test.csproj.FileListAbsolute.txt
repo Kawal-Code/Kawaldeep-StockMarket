@@ -210,3 +210,9 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountA
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.AssemblyInfo.cs
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.csproj.CopyComplete
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.genruntimeconfig.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\bin\Debug\netcoreapp3.1\AccountAPI.Test.pdb
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.csproj.CoreCompileInputs.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.dll
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\AccountAPI.Test\obj\Debug\netcoreapp3.1\AccountAPI.Test.pdb

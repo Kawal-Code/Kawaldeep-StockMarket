@@ -395,12 +395,8 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMar
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csprojAssemblyReference.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.AssemblyInfoInputs.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.AssemblyInfo.cs
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csproj.CoreCompileInputs.cache
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.RazorTargetAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csproj.CopyComplete
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\staticwebassets\StockMarket.AccountAPI.StaticWebAssets.Manifest.cache
@@ -408,3 +404,7 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMar
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.dll
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.pdb
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.genruntimeconfig.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csprojAssemblyReference.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csproj.CoreCompileInputs.cache
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cache

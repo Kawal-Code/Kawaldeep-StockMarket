@@ -78,9 +78,6 @@ C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMar
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.csprojAssemblyReference.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.AssemblyInfoInputs.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.AssemblyInfo.cs
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.csproj.CoreCompileInputs.cache
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.RazorTargetAssemblyInfo.cache
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\StockMarket.Gateway.csproj.CopyComplete
 C:\Users\socgend44\Desktop\Kawaldeep_StockMarket\Middleware\StockMarket\StockMarket.Gateway\obj\Debug\netcoreapp3.1\staticwebassets\StockMarket.Gateway.StaticWebAssets.Manifest.cache

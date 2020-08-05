@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L3q5d/caoji+k28SJeeSB9VmryiIaFVc12CNnsQrqoX9KoEiG2N7NUWWNbTNy5qkln2KdSmgNEdKmEMMBtjLvQ==",
+  "dgSpecHash": "Qx71t+g/eW+HA48qfdl2oOd2R3OfKZSu1d+HaMacYVZPV8IUZnB0gL9966QTDD+oGtWsZUmz/l6G22vaJGeWdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\StockMarket.ExcelEP.API\\StockMarket.ExcelEP.API.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.3\\microsoft.visualstudio.web.codegeneration.3.1.3.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.3\\microsoft.visualstudio.web.codegeneration.contracts.3.1.3.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.3\\microsoft.visualstudio.web.codegeneration.core.3.1.3.nupkg.sha512",

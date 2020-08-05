@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FWPNGdcHRkGJDmusI2ErR8KDcC/aQpVbj41etpp8rbFh7hOPvteXUElbDo/05cxFRXeje/0e2ir4oVabIgfepg==",
+  "dgSpecHash": "dBcg7wRd5ext1ZPi+llMweloCBEgABj9hII9tguS+OFV13oH40jFBZtdolTW5aCoefYYwTSN560OuhH7zH7vsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\socgend44\\Desktop\\Kawaldeep_StockMarket\\Middleware\\StockMarket\\AdminAPI.Test\\AdminAPI.Test.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\socgend44\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
