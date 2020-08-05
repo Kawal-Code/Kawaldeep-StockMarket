@@ -1,0 +1,14 @@
+1. DbScript folder have database tables(Database First Approcah)
+2. Middleware folder have all the api created:
+  a. AccountAPI(with account controller)
+  b. Admin API(with CompanyRelated,ManageStock controllers)
+  c. UserAPI(with Barchart,Search,User,ViewIPO controllers
+  d. ExcelEP.API(for Excel import)
+  e. Gateway
+  Can run all the services through routes mentioned in Ocelot.json file in Gateway.
+3. FrontEnd folder have angular application
+   Can run angular services through various routes mentioned in app-routing module.ts file.
+   Folder Structure: Models(all classes)
+                     Services(all corresponding services)
+                     Containers(all components)
+4. Rest of the folders have screenshots obtained during the development of the application.
