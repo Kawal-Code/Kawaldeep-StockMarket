@@ -1,0 +1,40 @@
+<form #myForm ="ngForm" (ngSubmit)="LogIn(myForm)" >
+<div id="wrap1">
+  <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+      <div class="w3-panel">
+        <h1><b>STOCK MARKET</b></h1>
+        <p>The Future Is You</p>
+      </div>
+
+        <div class="w3-section" [class.has-error]="fullNameControl.invalid && fullNameControl.touched"
+        [class.has.success]="fullNameControl.valid"> 
+          <label for ="user" class="control-label">User Name</label>
+          <input required id ="user" type="text" name="username"  class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="username" required="required" pattern="" title="" #fullNameControl="ngModel">
+       <span class ="help-block" *ngIf="fullNameControl.invalid && fullNameControl.touched"> User Name required</span>
+        </div>
+
+        
+        <div class="w3-section" [class.has-error]="passwordControl.invalid && passwordControl.touched"
+        [class.has.success]="passwordControl.valid">
+          <label for ="pas">Password</label>
+          <input required id ="pas" type="password" name="password" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="password" required="required" pattern="" title="" #passwordControl="ngModel">
+          <span class ="help-block" *ngIf="passwordControl.invalid && passwordControl.touched"> Password required</span>
+       
+        </div>
+        <tr>
+          <td colspan="2">
+            <button class="w3-button w3-block w3-black" type="submit" [disabled]="myForm.invalid" (click)='LogIn(myForm)'>LogIn</button>
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+            <button class="w3-button w3-block w3-black" (click)='SignUp()'>SignUp</button>
+          </td>
+        </tr>
+      
+    </div>
+</div>
+</form>
+     <!-- {{myForm.value | json}}-->

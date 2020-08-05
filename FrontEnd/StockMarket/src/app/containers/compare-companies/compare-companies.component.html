@@ -1,0 +1,57 @@
+
+<div id="wrap1">
+    <div class="w3-content" style="max-width:1100px;margin-top:40px;margin-bottom:80px">
+          <div class="w3-panel">
+             <h1><b>STOCK MARKET</b></h1>
+             <p>The Future Is You</p>
+           </div>
+           <td>
+               <div class="w3-col s3">
+                   <a class="w3-button w3-block" [routerLink]="['/User']">LogOut</a>
+               </div>
+           </td>
+           <div class="w3-top">
+            <div class="w3-row w3-large w3-light-grey">
+              <td>
+                <div class="w3-col s3">
+                  <button class="w3-button w3-block"(click)="IPOs()">IPOs</button>
+                </div>
+              </td>
+             <td> 
+                <div class="w3-col s3">
+                  <button class="w3-button w3-block"(click)="CompareCompanies()">Compare Companies/Sector</button>
+                </div>
+              </td>
+              <td>
+                <div class="w3-col s3">
+                  <button class="w3-button w3-block"(click)="Other()">Other</button>
+                </div>
+              </td>
+             
+            </div>
+
+        </div>
+          <div class="w3-section">
+            <label>Select Stock Exchange</label>
+            <select type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)] ="remark" required="required" pattern="" title="">
+            <option *ngFor ="let item of list" [value]="item">
+                 {{item}}
+             </option>
+            </select>
+        </div>
+         <div class="w3-section">
+            <label>Company Name</label>
+            <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="companyName" required="required" pattern="" title="">
+          </div> 
+          <div class="w3-section">
+            <label>From Period</label>
+            <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="fromPeriod" required="required" pattern="" title="">
+          </div> 
+          <div class="w3-section">
+            <label>To Period</label>
+            <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="toPeriod" required="required" pattern="" title="">
+          </div> 
+        <button class="w3-button w3-block"(click)="Compare()">Compare</button>
+    </div>
+</div>
+    

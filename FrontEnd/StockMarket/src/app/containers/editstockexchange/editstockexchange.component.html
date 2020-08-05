@@ -1,0 +1,53 @@
+
+    <form #myForm3 ="ngForm" (ngSubmit)="Edit(myForm3)" >     
+     
+  <div id="wrap">
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+     <div class="w3-center w3-padding-64">
+      <header class="w3-container w3-blue-grey">
+        <h2>Edit Exchange</h2>
+      </header>
+
+    </div>
+  
+  
+    <div class="w3-section" [class.has-error]="fullNameControl.invalid && fullNameControl.touched"
+    [class.has.success]="fullNameControl.valid"> 
+      <label for ="user" class="control-label">Stock Exchange</label>
+      <input required id ="user" type="text" name="username"  class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="stockExchange1" required="required" pattern="" title="" #fullNameControl="ngModel">
+   <span class ="help-block" *ngIf="fullNameControl.invalid && fullNameControl.touched"> Stock Exchange required</span>
+    </div>
+
+
+        <div class="w3-section" [class.has-error]="briefControl.invalid && briefControl.touched"
+        [class.has.success]="briefControl.valid"> 
+          <label for ="brief" class="control-label">Brief</label>
+          <input required id ="brief" type="text" name="brief"  class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="brief" required="required" pattern="" title="" #briefControl="ngModel">
+       <span class ="help-block" *ngIf="briefControl.invalid && briefControl.touched"> Brief required</span>
+        </div>
+
+        <div class="w3-section" [class.has-error]="contactControl.invalid && contactControl.touched"
+        [class.has.success]="contactControl.valid"> 
+          <label for ="contact" class="control-label">Contact Address</label>
+          <input required id ="contact" type="text" name="username"  class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="contactAddress" required="required" pattern="" title="" #contactControl="ngModel">
+       <span class ="help-block" *ngIf="contactControl.invalid && contactControl.touched"> Contact Address required</span>
+        </div>
+
+        <div class="w3-section" [class.has-error]="remarkControl.invalid && remarkControl.touched"
+        [class.has.success]="remarkControl.valid"> 
+          <label for ="remark" class="control-label">Remarks</label>
+          <input required id ="remark" value="obj.remarks" type="text" name="username"  class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="remarks" required="required" pattern="" title="" #remarkControl="ngModel">
+       <span class ="help-block" *ngIf="remarkControl.invalid && remarkControl.touched"> Remarks required</span>
+        </div>
+         <td><button type="submit"  class="w3-button w3-block w3-black" ng-click="Edit(myForm3);">SaveChanges</button>
+         </td>
+        <td colspan="2" class="text-info">
+          {{errmsg}}
+        </td>
+      
+          </div>
+  </div>
+  
+</form>     
+
+

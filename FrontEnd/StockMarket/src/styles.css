@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+#wrap { 
+	width: 700px; 
+	margin: 0 auto; 
+}
+#wrap1 { 
+	width: 400px; 
+	margin: 0 auto; 
+}
+#wrap3 { 
+	width: 1200px; 
+	margin: 0 auto; 
+}

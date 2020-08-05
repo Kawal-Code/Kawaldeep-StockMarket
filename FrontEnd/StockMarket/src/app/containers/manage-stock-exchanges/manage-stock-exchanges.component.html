@@ -1,0 +1,65 @@
+
+<div id="wrap3">
+  <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+      <div class="w3-panel">
+        <h1><b>STOCK MARKET</b></h1>
+        <p>The Future Is You</p>
+      </div>
+      <td>
+          <div class="w3-col s3">
+              <a class="w3-button w3-block" [routerLink]="['/Admin']">LogOut</a>
+          </div>
+        </td>
+ <div class="w3-top">
+    <div class="w3-row w3-large w3-light-grey">
+      <td>
+        <div class="w3-col s3">
+          <button class="w3-button w3-block"(click)="ImportData()">Import Data</button>
+        </div>
+      </td>
+     <td> 
+        <div class="w3-col s3">
+          <button class="w3-button w3-block"(click)="ManageCompanies()">Manage Companies</button>
+        </div>
+      </td>
+      <td>
+        <div class="w3-col s3">
+          <button class="w3-button w3-block"(click)="ManageExchange()">ManageExchange</button>
+        </div>
+      </td>
+      <td>
+        <div class="w3-col s3">
+          <button class="w3-button w3-block"(click)="UpdateIPO()">Update IPO details</button>
+        </div>
+      </td>
+     
+    </div>
+  </div>
+
+     <div class="container">
+         <h2>Stock Exchanges</h2>
+         <table class="table table-bordered table-hover">
+             <thead>
+               <tr>
+                 <th>Stock Exchange</th><th>Brief</th><th>Contact Address</th><th>Remarks</th></tr>
+             </thead>
+             <tbody>
+               <tr *ngFor="let item of list">
+                <td>{{item.stockExchange1}}</td>
+                 <td>{{item.contactAddress}}</td>
+                 <td>{{item.brief}}</td>
+                 <td>{{item.remarks}}</td>
+                 <td colspan="2"> <button class="w3-button w3-block" (click)="Editt(item.id)">Edit</button></td>
+                <td colspan="2"> <button class="w3-button w3-block" (click)="Delete(item.id)">Delete</button></td>
+               </tr>
+               
+             </tbody>
+           </table>
+           <tr><td><button class="w3-button w3-block" (click)="Add()">Add</button></td></tr>
+           
+           
+         </div>
+     
+        </div>
+      </div>

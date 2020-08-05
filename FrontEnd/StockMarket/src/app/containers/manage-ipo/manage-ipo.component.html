@@ -1,0 +1,60 @@
+<div id="wrap3">
+  <div class="w3-content" style="max-width:1100px;margin-top:30px;margin-bottom:80px">
+        <div class="w3-panel">
+           <h1><b>STOCK MARKET</b></h1>
+           <p>The Future Is You</p>
+         </div>
+         <td>
+             <div class="w3-col s3">
+                 <a class="w3-button w3-block" [routerLink]="['/User']">LogOut</a>
+             </div>
+         </td>
+  
+
+        
+     <div class="w3-top">
+         <div class="w3-row w3-large w3-light-grey">
+           <td>
+             <div class="w3-col s3">
+               <button class="w3-button w3-block"(click)="IPOs()">IPOs</button>
+             </div>
+           </td>
+          <td> 
+             <div class="w3-col s3">
+               <button class="w3-button w3-block"(click)="CompareCompanies()">Compare Companies/Sector</button>
+             </div>
+           </td>
+           <td>
+             <div class="w3-col s3">
+               <button class="w3-button w3-block"(click)="Other()">Other</button>
+             </div>
+           </td>
+          
+         </div>
+     </div>
+    
+<div class="container">
+  
+  <h2>List IPOs</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Company Name</th><th>Stock Exchange</th><th>Price Per Share</th><th>Total Shares</th><th>Open Date Time</th><th>Remarks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of list">
+            <td>{{item.companyName}}</td>
+            <td>{{item.stockExchange}}</td>
+            <td>{{item.pricePerShare}}</td>
+            <td>{{item.totalShares}}</td>
+            <td>{{item.openDateTime}}</td>
+            <td>{{item.remarks}}</td>
+          </tr>
+        </tbody>
+      </table>
+    
+    </div>
+
+    </div>
+  </div>

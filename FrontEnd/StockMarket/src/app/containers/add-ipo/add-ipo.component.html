@@ -1,0 +1,51 @@
+
+  <div id="wrap">
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+     <div class="w3-center w3-padding-64">
+      <header class="w3-container w3-blue-grey">
+        <h2>Add IPO</h2>
+      </header>
+
+    </div>
+  
+    
+      <div class="w3-section">
+        <label>Company Name</label>
+        <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="companyName" required="required" pattern="" title="">
+      </div>
+      <div class="w3-section">
+        <label>Stock Exchange</label>
+        <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="stockExchange" required="required" pattern="" title="">
+      </div>
+      <div class="w3-section">
+        <label>Price Per Share</label>
+        <input type="number" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="pricePerShare" required="required" pattern="" title="">
+        
+      </div>
+      <div class="w3-section">
+        <label>Total Shares</label>
+        <input type="number" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="totalShare" required="required" pattern="" title="">
+         
+      </div>
+      <div class="w3-section">
+        <label>Open Date Time</label>
+        <input type="datetime" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="openDateTime" required="required" pattern="" title="">
+         
+      </div>
+      <div class="w3-section">
+        <label>Remarks</label>
+        <input type="text" class="w3-input w3-border w3-hover-border-black" style="width:100%;" [(ngModel)]="remark" required="required" pattern="" title="">
+      </div>
+    
+      <button type="submit" class="w3-button w3-block w3-black" (click)="Add()">Add</button>
+      <tr>
+        <td colspan="2" class="text-info">
+          {{errmsg}}
+        </td>
+      </tr> 
+    
+    </div>
+  
+  
+ 
+
