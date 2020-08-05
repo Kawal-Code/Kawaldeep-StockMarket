@@ -23,8 +23,8 @@ msg: any = "Invalid Credentials";
 
   ngOnInit(): void {
   }
-  Validate(myForm : NgForm):void
-  {console.log(myForm.value);
+  Validate(myForm4 : NgForm):void
+  {console.log(myForm4.value);
     this.item={confirmpassword: this.confirmpassword,username: this.username, password: this.password, usertype: this.usertype, mobilenumber: this.mobilenumber, email: this.email};
     console.log(this.item);
     if(this.item.username == "Admin" && this.item.password =="12345")
