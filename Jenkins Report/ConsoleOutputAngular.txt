@@ -1,0 +1,118 @@
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Started by an SCM change
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Kawal-Code/Kawaldeep-StockMarket # timeout=10
+Fetching upstream changes from https://github.com/Kawal-Code/Kawaldeep-StockMarket
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/Kawal-Code/Kawaldeep-StockMarket +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 6b84aa48a0dcfaad26e41c15c550c2c139815548 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 6b84aa48a0dcfaad26e41c15c550c2c139815548 # timeout=10
+Commit message: "final commit"
+ > git.exe rev-list --no-walk ba6df1a7d3e85e2eb5dca9cea17bdf978303f626 # timeout=10
+[StockMarket-FrontEnd] $ cmd /c call C:\Windows\TEMP\jenkins640189515935743032.bat
+
+C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd>cd FrontEnd/StockMarket 
+
+C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd\FrontEnd\StockMarket>npm install 
+npm WARN bootstrap@4.5.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.0 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 1 package and audited 1456 packages in 15.803s
+
+56 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[StockMarket-FrontEnd] $ cmd /c call C:\Windows\TEMP\jenkins3289955348059472701.bat
+
+C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd>cd FrontEnd/StockMarket 
+
+C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd\FrontEnd\StockMarket>npm run ng --build --prod 
+
+> stock-market@0.0.0 ng C:\Program Files (x86)\Jenkins\workspace\StockMarket-FrontEnd\FrontEnd\StockMarket
+> ng
+
+Available Commands:
+  add Adds support for an external library to your project.
+  analytics Configures the gathering of Angular CLI usage metrics. See https://angular.io/cli/usage-analytics-gathering.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  deploy Invokes the deploy builder for a specified project or for the default project in the workspace.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n (i18n-extract) Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+Finished: SUCCESS
